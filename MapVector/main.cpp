@@ -10,7 +10,7 @@ int main()
     //generating random numbers from 1-9
     std::random_device rd;
     std::mt19937_64 gen(rd());
-    std::uniform_int_distribution<int16_t> dist(0, 9);
+    std::uniform_int_distribution<int16_t> dist(1, 9);
 
     // fill in the sensors with random values from 1-9
     for(int16_t i {0}; i != ArrSize; ++i){
